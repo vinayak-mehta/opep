@@ -33,6 +33,7 @@ def setup_package():
         author_email=about["__author_email__"],
         license=about["__license__"],
         packages=find_packages(exclude=("tests",)),
+        include_package_data=True,
         entry_points={
             "console_scripts": [
                 "opep = opep.cli:cli"
