@@ -1,5 +1,7 @@
 # opep
 
+[![image](https://img.shields.io/pypi/v/opep.svg)](https://pypi.org/project/opep/) [![image](https://img.shields.io/pypi/pyversions/opep.svg)](https://pypi.org/project/opep/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 Open PEPs on your terminal.
 
 ## Installation

@@ -34,11 +34,7 @@ def setup_package():
         license=about["__license__"],
         packages=find_packages(exclude=("tests",)),
         include_package_data=True,
-        entry_points={
-            "console_scripts": [
-                "opep = opep.cli:cli"
-            ]
-        },
+        entry_points={"console_scripts": ["opep = opep.cli:cli"]},
         install_requires=requires,
         extras_require={"dev": dev_requires},
         classifiers=[
@@ -47,6 +43,7 @@ def setup_package():
             "License :: OSI Approved :: Apache Software License",
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
         ],
     )
 
