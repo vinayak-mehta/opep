@@ -9,6 +9,8 @@ import click
 from rich.console import Console
 from rich.markdown import Markdown
 
+from .__version__ import __version__
+
 
 def validate_number(ctx, param, value):
     try:
@@ -23,6 +25,7 @@ def validate_number(ctx, param, value):
 
 @click.command("opep")
 @click.argument("number", callback=validate_number)
+@click.version_option(version=__version__)
 @click.pass_context
 def cli(*args, **kwargs):
     """Open PEPs on your terminal."""
