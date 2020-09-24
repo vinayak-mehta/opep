@@ -20,7 +20,7 @@ $ pip install opep
 $ opep 8
 ```
 
-![image](https://raw.githubusercontent.com/vinayak-mehta/opep/master/opep.png)
+![image](https://raw.githubusercontent.com/vinayak-mehta/opep/master/opep.gif)
 
 You can also stumble upon a PEP using:
 
