@@ -9,6 +9,6 @@ $ sudo apt install pandoc git
 And then generate all markdown files using:
 
 ```
-$ ./generate_peps_md.sh
+$ ./generate_peps.sh
 ```
 
